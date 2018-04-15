@@ -1,0 +1,122 @@
+body {
+  background-color: rgba(230, 152, 143, 1);
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+
+}
+
+.nav{
+position: fixed;
+
+  width:96.8%;
+  margin: 1%;
+  margin-right:2%;
+  display:block;
+  background-color: hsla(6, 63.5%, 76.1%, 1);
+  box-shadow:0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2), 0 0.7rem 1.3rem 0 rgba(0, 0, 0, 0.19);
+  z-index: 8;
+}
+
+.nav ul li{
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 2% 6% 2% 6%;
+}
+
+.firstpage {
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  margin: 4.5%;
+  margin-right: 6%;
+  margin-top: 12%;
+  box-sizing: content-box;
+  /** margin-top:-1em;
+  margin-left: -1em; **/
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+  box-shadow:0 1rem 2rem 0 rgba(0, 0, 0, 0.2), 0 1.2rem 3rem 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 -1rem -2rem 0 rgba(0, 0, 0, 0.2), 0 -1.2rem -3rem 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.firstpage h1 {
+font-family: 'Amatic SC', cursive;
+font-size: 8rem;
+text-align: center;
+padding-top: 5%;
+}
+
+.content {
+  width: 98%;
+  display: block;
+  margin-top: 60%;
+  margin-left: 1%;
+
+
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+  box-shadow:0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2), 0 0.7rem 1.3rem 0 rgba(0, 0, 0, 0.19), 0 -0.7rem 1.3rem 0 rgba(0, 0, 0, 0.19);
+}
+.content h2 {
+
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+}
+.content p{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+}
+
+.content img{
+  display: flex;
+  width: 80%;
+  margin: 10%;
+  border: 0.1rem solid black;
+  box-shadow:0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2), 0 0.7rem 1.3rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer{
+  width: 98%;
+  display: block;
+  margin-top: 5%;
+  margin-left: 1%;
+
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+  box-shadow:0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2), 0 0.7rem 1.3rem 0 rgba(0, 0, 0, 0.19), 0 -0.7rem 1.3rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer h6 {
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-left: 60%;
+  display: inline;
+  padding-top: 5%;
+  margin: 0%;
+}
+
+.footer p {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.5rem;
+  padding-left: 60%;
+  display: inline;
+}
+
+.footer img{
+  position: relative;
+  width: 10%;
+  padding-right: 0;
+  margin-right: 0;
+  display: inline;
+  padding-left: 40%;
+  padding-top: 5%;
+}
